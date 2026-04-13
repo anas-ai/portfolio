@@ -25,10 +25,20 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import nextjs from "./company/nextjs.jpg"
+import mobileapp from "./company/mobileapp.jpg"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
+import pkconnets from "./appnames/pkconntess.webp";
+import hotelops from "./appnames/hotelops.webp";
+import chilliapple from "./appnames/chilliapple.webp";
+import playStore from "./appnames/playstore.png";
+import website1 from "./appnames/website1.png";
+import website2 from "./appnames/website2.png";
+import website3 from "./appnames/website3.png";
 
 export {
   logo,
@@ -59,4 +69,13 @@ export {
   carrent,
   jobit,
   tripguide,
+  nextjs,
+  mobileapp,
+  pkconnets,
+  hotelops,
+  chilliapple,
+  playStore,
+  website1,
+  website2,
+  website3
 };
