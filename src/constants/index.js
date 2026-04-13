@@ -46,7 +46,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Mobile App Developer",
     icon: mobile,
   },
   {
@@ -54,7 +54,15 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Graphic Designer",
+    icon: creator,
+  },
+  {
+    title: "SEO Specialist",
+    icon: creator,
+  },
+  {
+    title: "Video Editor",
     icon: creator,
   },
 ];
@@ -116,8 +124,8 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Web Developer",
+    // company_name: "web3labs",
     icon: starbucks,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
