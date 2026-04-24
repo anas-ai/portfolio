@@ -39,7 +39,7 @@ import playStore from "./appnames/playstore.png";
 import website1 from "./appnames/website1.png";
 import website2 from "./appnames/website2.png";
 import website3 from "./appnames/website3.png";
-import wallCarvings from "./graphic/wallCarvings.png";
+import wallcarvings from "./graphic/wallcarvings.png";
 import tableCatalogue from "./graphic/tableCatalogue.png";
 export {
   logo,
@@ -79,6 +79,6 @@ export {
   website1,
   website2,
   website3,
-  wallCarvings,
+  wallcarvings,
   tableCatalogue,
 };
