@@ -31,7 +31,7 @@ import {
   website1,
   website2,
   website3,
-  wallCarvings,
+  wallcarvings,
   tableCatalogue ,
 } from "../assets";
 
@@ -249,7 +249,7 @@ export const projects = [
     name: "Wall Carvings Catalogue",
     description: "Wall carving design collection.",
     tags: [{ name: "illustrator", color: "pink-text-gradient" }],
-    image: wallCarvings,
+    image: wallcarvings,
     source_code_link: "/pdfs/wall-carvings.pdf",
     iconType: "pdf",
   },
