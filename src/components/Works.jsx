@@ -22,6 +22,7 @@ const ProjectCard = ({
       initial="hidden"
       animate="show"
     >
+      {/* fsklfjsdlkf */}
       <Tilt
         tiltMaxAngleX={45}
         tiltMaxAngleY={45}
@@ -42,7 +43,7 @@ const ProjectCard = ({
            onClick={() => window.open(source_code_link, "_blank")}
           >
             <div
-            //  fdsjlfsjdf
+             
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
@@ -79,7 +80,7 @@ const ProjectCard = ({
 const Works = () => {
   const webProjects = projects.filter((p) => p.type === "web");
   const mobileProjects = projects.filter((p) => p.type === "mobile");
-
+  const graphicProjects = projects.filter((p) => p.type === "graphic");
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -125,6 +126,20 @@ const Works = () => {
           ))}
         </div>
       </div>
+            {/* ====================== GRAPHIC PROJECTS ====================== */}
+      <div className="mt-20">
+        <h3 className="text-white text-[28px] font-bold mb-8">Graphic Designs</h3>
+        <div className="flex flex-wrap gap-7">
+          {graphicProjects.map((project, index) => (
+            <ProjectCard
+              key={`graphic-${index}`}
+              index={index + webProjects.length + mobileProjects.length} // for smooth animation stagger
+              {...project}
+            />
+          ))}
+        </div>
+      </div>
+
     </>
   );
 };
