@@ -31,6 +31,8 @@ import {
   website1,
   website2,
   website3,
+  wallCarvings,
+  tableCatalogue ,
 } from "../assets";
 
 // If you have mobile screenshots, import them like this:
@@ -230,6 +232,26 @@ export const projects = [
     image: hotelops,
     source_code_link:
       "https://play.google.com/store/apps/details?id=com.nilehospitality",
+  },
+
+   // ================= GRAPHIC =================
+  {
+    type: "graphic",
+    name: "Table Catalogue",
+    description: "Furniture catalogue design.",
+    tags: [{ name: "photoshop", color: "blue-text-gradient" }],
+    image: tableCatalogue,
+    source_code_link: "/pdfs/table-catalogue.pdf",
+    iconType: "pdf",
+  },
+  {
+    type: "graphic",
+    name: "Wall Carvings Catalogue",
+    description: "Wall carving design collection.",
+    tags: [{ name: "illustrator", color: "pink-text-gradient" }],
+    image: wallCarvings,
+    source_code_link: "/pdfs/wall-carvings.pdf",
+    iconType: "pdf",
   },
 ];
 
