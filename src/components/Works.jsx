@@ -87,7 +87,7 @@ const Works = () => {
         <p className={`${styles.sectionSubText}`}>My work</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
       </motion.div>
-
+{/* sfdsfsdfdsf */}
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
