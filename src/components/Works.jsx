@@ -42,7 +42,7 @@ const ProjectCard = ({
            onClick={() => window.open(source_code_link, "_blank")}
           >
             <div
-             
+            //  fdsjlfsjdf
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
